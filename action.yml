@@ -1,6 +1,6 @@
 name: 'Code-Shamer (Clean Code Enforcer)'
 description: 'Ensures Python code quality and shames the perpetrator for their crimes against Clean Code'
-author: 'LaTeX-enjoyers'
+author: 'cs-2526-grupo-1'
 branding:
   icon: 'alert-triangle'  
   color: 'red'
