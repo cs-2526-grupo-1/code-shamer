@@ -52,7 +52,7 @@ runs:
       run: |
         # Only read the first 15 lines of the error log to ensure we respect TG's char limit (4096)
         # We also escape underscores to avoid breaking Telegram Markdown
-        ERRORS=$(head -n 15 flake8_output.txt | sed 's/_/\\_/g')
+        ERRORS=$(head -n 100 flake8_output.txt | sed 's/_/\\_/g')
         
         # Send the message w the error code block
         # Inputs instead of secrets. Secrets need to be defined in recipient repo
