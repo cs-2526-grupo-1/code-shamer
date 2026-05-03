@@ -1,6 +1,10 @@
 name: 'Code-Shamer (Clean Code Enforcer)'
 description: 'Ensures Python code quality by detecting code smells and style violations. Also publicly shames the perpetrator for their cirmes against Clean Code'
 author: 'LaTeX-enjoyers'
+branding:
+  icon: 'alert-triangle'  
+  color: 'red'
+  
 
 # Defining inputs to solve the "Unrecognized named-value: secrets" error
 inputs:
